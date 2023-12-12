@@ -1,0 +1,301 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li {
+    display: inline;
+    padding-right:20px;
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo img{
+    height:70px;
+    width:150px;
+}
+.banner {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    height: 100vh;
+}
+
+.text_banner {
+    padding-top: 12%;
+    padding-left: 20%;
+    color: white;
+    text-shadow: -1px -1px 0 #564747, 1px -1px 0 #564747, -1px 1px 0 #564747, 1px 1px 0 #564747;
+}
+.text_banner h2{
+    font-size: 100px;
+    font-weight: 700;
+}
+.text_banner h4{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding-left:70px;
+}
+.text_banner h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-left:70px;
+}
+.afi1 {
+    background-color: #EEB8EF;
+    padding-top: 60px;
+    
+}
+.afi1_text {
+    padding-left: 120px;
+
+}
+.afi1_text h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #98149A;
+    width: 60%;
+}
+.afi1_text p {
+    width: 31%;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    color: #483838;
+}
+.afi1_img {
+    display: flex;
+    justify-content: center;
+}
+
+.afi1_img1 {
+    padding-top: 150px;
+    
+}
+.afi1_img1 img {
+    
+    width: 350px;
+    height: 477px;
+    border: 1px solid #564747;
+}
+
+.afi1_img2 img {
+    width: 300px;
+    height: 700px;
+    border: 1px solid #564747;
+}
+
+.afi1_img3 img {
+    width: 300px;
+    height: 457px;
+    position: relative;
+    top: -120px;
+    border: 1px solid #564747;
+}
+.afi1_Nadpis {
+    width: 300px;
+    height: 287px;
+    background-color: #D475D6;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: -120px;
+    border: 1px solid #564747;
+}
+.afi1_Nadpis p{
+    color:white;
+    font-size:24px;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 #564747, 1px -1px 0 #564747, -1px 1px 0 #564747, 1px 1px 0 #564747;
+}
+.advertising_banner h2 {
+
+    font-size: 50px;
+    font-weight: 800;
+    color: #98149A;
+
+}
+.advertising_banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.advertising_banner h2 img {
+    max-width: 356px;
+    
+}
+.advertising_banner ul {
+    list-style-type: none;
+    padding-left: 0px;
+    font-style: italic;
+    color: #483838;
+}
+
+.advertising_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid #564747;
+}
+
+.banner_moroz {
+    background-image: url(../img/Group10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top:50vh;
+    padding-right:18%;
+    height: 77vh;
+}
+
+.banner_moroz_text {
+    float: right;
+    width: 350px;
+}
+
+.banner_moroz_text h3{
+    color:white;
+    font-size:50px;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 #564747, -1px 1px 0 #564747, 1px 1px 0 #564747;
+}
+.banner_moroz_text h4{
+    color:white;
+    font-size:40px;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 #564747, -1px 1px 0 #564747, 1px 1px 0 #564747;
+}
+
+.menu a img {
+    width: 100%;
+    height:300px;
+}
+.menu {
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.menu_text h2 {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    text-align: center;
+    color: #98149A;
+}
+
+.itemCategories {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu_button {
+    margin-top: 40px;
+    color: #98149A;
+    border-radius: 30px;
+    background-color: #EEB8EF;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #807777;
+}
+
+.munu_zak {
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.image {
+    background-color: #EEB8EF;
+    margin-top:300px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height:450px;
+    
+
+}
+.Reviews_itemCategories {
+    background-color: #FFFFFF;
+    max-width: 350px;
+    height: 537px;
+    border: solid grey;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    position: relative;
+    top: -200px;
+}
+.image .row{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.Reviews_itemCategories img {
+    margin-top:40px;
+
+}
+.Reviews_itemCategories span {
+    display: block;
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 45px;
+    margin-right: 60px;
+    margin-right: 60px;
+}
+
+
+.Reviews_text {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    text-align: center;
+    color: #98149A;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: #EEB8EF;
+    
+    padding: 40px 6%;
+    padding-bottom:10px;
+}
+.footers {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text{
+    text-align:center;
+}
+.logo_footer img {
+    height: 70px;
+    width: 150px;
+}
+.footer .spis img {
+    width:50px;
+    
+}
+.footer_text{
+    display:block;
+}
+.footer li {
+    display: inline;
+    padding-right: 20px;
+}
+
+a:hover{
+    color:red;
+}
